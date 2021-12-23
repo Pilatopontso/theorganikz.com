@@ -1,0 +1,202 @@
+header{
+	opacity:.9;
+	width:100%;
+	height:100px;
+	line-height:40px;
+	background-image: linear-gradient( to bottom, white, #D8D8D8, gray);
+}
+
+.HEADER{
+	margin-top:3px;
+	border:thin transparent solid;
+	float:left;
+	width:90%;
+
+}
+
+.logo{
+	margin-top:1.5%;
+	margin-right:6px;
+	float:right;
+	width:auto;
+	height:10px;
+	opacity:0px;
+	border-radius:50%;
+}
+
+#body{
+	
+	background-image:url("backImg/1097177.jpg");
+	margin:0px;
+}
+
+nav{
+	opacity:.9;
+	width:100%;
+	height:90px;
+	line-height:90px;
+	background-image: linear-gradient( to right, white, green);
+}
+
+nav a{
+	color:#000000;
+	text-decoration:none;
+}
+
+nav a:hover{
+	text-decoration:underline;
+	color:#A52A2A;
+}
+
+nav a:active{
+	text-decoration:underline;
+	color:#A52A2A;
+}
+
+nav .container{
+	margin-top:5px;
+	/*text-align:center;*/
+}
+
+ul{
+	margin-left:20px;
+}
+
+li{
+	display:inline-block;
+	margin-left:7px;
+	margin-right:3px;
+}
+
+aside #left {
+	float:left;
+	width:25%;
+	height:550px;
+	background:blue;
+	blue;
+}
+
+section .home{
+	float:right;
+	width:75%;
+	height:950px;
+	background:skyblue;
+}
+
+section{
+	opacity:.9;
+	float:right;
+	width:100%;
+	height:550px;
+	background-image:linear-gradient(to bottom, skyblue,white);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+#PRODUCTS{
+	float:right;
+	width:100%;
+	height:auto;
+	background-image: linear-gradient( to top, transparent, skyblue);
+}
+
+#productsBody{
+	margin:0px;
+	background-image:url("backImg/R (6).jfif");
+	background-repeat:no-repeat;
+	margin-bottom:0px;
+	
+}
+
+#bodyAboutus{
+	margin:0px;
+	background-image:url("backImg/R (2).jfif")
+	background-repeat:no-repeat;
+	margin-bottom:0px;
+}
+
+#bodyContactUs{
+	margin:0px;
+	background-image:url("backImg/260954-beautiful-white-wood-background-2560x1600.jpg")
+	background-repeat:no-repeat;
+	margin-bottom:0px;
+}
+
+.table{
+	margin-top:7%;
+	background:white;
+	margin-left:30%;
+	margin-right:30%;
+	opacity:.9;
+}
+
+.foto{
+	border-radius:50%;
+	border:transparent;
+}
+
+#contactArticle{
+	background:white;
+	opacity:.9;
+	margin-left:25%;
+	margin-right:25%;
+	
+}
+
+#aboutusArticle{
+	background:white;
+	opacity:.9;
+	margin-left:20%;
+	margin-right:20%;
+	box-shadow: 0 30px 40px rgba(0,0,0,.1);
+}
+
+#sec{
+	background-image:linear-gradient(to bottom, skyblue,white);
+}
+
+article #home{
+	text-align:center;
+	border:thin wheat solid;
+	border-radius:15px 15px;
+	margin-left:5px;
+	margin-right:5px;
+	margin-top:10%;
+}
+
+article {
+	text-align:center;
+	border-radius:15px 15px;
+	margin-left:25px;
+	margin-right:25px;
+	margin-top:10%;
+}
+
+body{
+	background:whitet;
+}
+
+h2{
+	color:#A52A2A;
+	font-size:18px;
+	font-family:arial;
+	text-align:center;
+}
+
+h1{
+	color:#A52A2A;
+	font-size:26px;
+	font-family:arial;
+	text-align:center;
+}
+
+
+footer {
+	opacity:.9;
+	text-align:center;
+	clear:both;
+	width:100%;
+	height:100px;
+	line-height:37px;
+	background-color:green;
+}	

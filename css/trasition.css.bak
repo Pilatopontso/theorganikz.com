@@ -1,0 +1,156 @@
+
+header{
+	opacity:.9;
+	width:100%;
+	height:60px;
+	line-height:20px;
+	background-image: linear-gradient( to bottom, white, #D8D8D8, gray);
+}
+
+.HEADER{
+	margin-top:3px;
+	border:thin transparent solid;
+	float:left;
+	width:90%;
+
+}
+
+.logo{
+	margin-top:1px;
+	margin-right:6px;
+	float:right;
+	width:auto;
+	height:10px;
+	opacity:0px;
+	border-radius:50%;
+}
+
+.logo2{
+	margin-top:1px;
+	margin-right:6px;
+	float:right;
+	width:100%;
+	height:60px;
+	opacity:0px;
+	border-radius:50%;
+}
+
+
+h1{
+	color:#A52A2A;
+	font-size:26px;
+	font-family:arial;
+	text-align:center;
+}
+
+nav{
+	opacity:.9;
+	width:100%;
+	height:50px;
+	line-height:45px;
+	background-image: linear-gradient( to right, white, green);
+}
+
+nav a{
+	color:#000000;
+	text-decoration:none;
+}
+
+nav a:hover{
+	text-decoration:underline;
+	color:#A52A2A;
+}
+
+nav a:active{
+	text-decoration:underline;
+	color:#A52A2A;
+}
+
+nav .container{
+	margin-top:5px;
+	/*text-align:center;*/
+}
+
+ul{
+	margin-left:20px;
+}
+
+li{
+	display:inline-block;
+	margin-left:7px;
+	margin-right:3px;
+}
+
+body{
+	margin:0px;
+	padding:0px;
+	height:100%;
+	width:100%;
+}
+
+.logo{
+	margin-top:1px;
+	margin-right:6px;
+	float:right;
+	width:auto;
+	height:10px;
+	opacity:0px;
+	border-radius:50%;
+}
+
+.container{
+	height:100vh;
+	width:100%;
+	background-image:url("backImg/R (1).jfif");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	transition:10s;
+	
+	animation-name:animate;
+	animation-direction:alternate-reverse;
+	animation-duration:60s;
+	animation-fill-mode:forwards;
+	animation-iteration-count:infinite;
+	animation-play-state:running;
+	animation-timing-function:ease-in-out;
+}
+
+
+@keyframes animate{
+	
+	0%{
+		background-image:url("backImg/R (1).jfif")
+	}10%{
+		background-image:url("backImg/R (2).jfif")
+	}20%{
+		background-image:url("backImg/R (7).jfif")
+	}30%{
+		background-image:url("backImg/R (3).jfif")
+	}40%{
+		background-image:url("backImg/R (8).jfif")
+	}50%{
+		background-image:url("backImg/R.jfif")
+	}60%{
+		background-image:url("backImg/R (4).jfif")
+	}70%{
+		background-image:url("backImg/R (9).jfif")
+	}80%{
+		background-image:url("backImg/1097177.jpg")
+	}90%{
+		background-image:url("backImg/R (5).jfif")
+	}100%{
+		background-image:url("backImg/R (6).jfif")
+	}
+}
+
+
+footer {
+	opacity:.9;
+	text-align:center;
+	clear:both;
+	width:100%;
+	height:auto;
+	line-height:37px;
+	background-color:green;
+}

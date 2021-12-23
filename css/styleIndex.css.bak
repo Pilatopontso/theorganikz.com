@@ -1,0 +1,175 @@
+header{
+	opacity:.9;
+	width:100%;
+	height:100px;
+	line-height:50px;
+	background-image: linear-gradient( to bottom, white, #D8D8D8, gray);
+}
+
+.HEADER{
+	margin-top:3px;
+	border:thin transparent solid;
+	float:left;
+	width:90%;
+
+}
+
+.logo{
+	margin-top:1.5%;
+	margin-right:9px;
+	float:right;
+	width:auto;
+	height:10px;
+	opacity:0px;
+	border-radius:50%;
+}
+
+#body{
+	
+	background-image:url("backImg/1097177.jpg");
+	background-repeat:no-repeat;
+	margin:0px;
+	margin-bottom:0px;
+
+	width:100%;
+}
+
+nav{
+	opacity:.9;
+	width:100%;
+	height:90px;
+	line-height:90px;
+	background-image: linear-gradient( to right, white, green);
+}
+
+nav a{
+	color:#000000;
+	text-decoration:none;
+}
+
+nav a:hover{
+	text-decoration:underline;
+	color:#A52A2A;
+}
+
+nav a:active{
+	text-decoration:underline;
+	color:#A52A2A;
+}
+
+nav .container{
+	margin-top:5px;
+	/*text-align:center;*/
+}
+
+ul{
+	margin-left:20px;
+}
+
+li{
+	display:inline-block;
+	margin-left:7px;
+	margin-right:3px;
+	border: thin solid wheat;
+	height:27px;
+	line-height:90px;
+	border-radius:4px;
+}
+
+
+
+
+#left {
+	opacity:.8;
+	float:left;
+	width:30%;
+	height:650px;
+	background-image: linear-gradient( to top, white, skyblue);
+	
+}
+
+section .home{
+	float:right;
+	width:75%;
+	height:950px;
+	background:skyblue;
+}
+
+section{
+	opacity:.9;
+	float:right;
+	width:70%;
+	height:650px;
+	/*background-image:url("backImg/istockphoto-1279763992-170667a.jpg");*/
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+
+
+#home{
+	background:pink;
+	opacity:.9;
+	text-align:center;
+	border:thin wheat solid;
+	border-radius:15px 15px;
+	margin-left:8%;
+	margin-right:8%;
+	margin-top:10%;
+}
+
+
+#tips{
+	
+	opacity:.7;
+	align:center;
+	text-align:justify;
+}
+
+#register2{
+	align:center;
+}
+
+h3{
+	text-align:center;
+	margin-top:25%;
+}
+
+
+h1{
+	color:#A52A2A;
+	font-size:26px;
+	font-family:arial;
+	text-align:center;
+}
+
+
+article {
+	text-align:center;
+	border-radius:15px 15px;
+	margin-left:25px;
+	margin-right:25px;
+	margin-top:10%;
+}
+
+body{
+	background:white;
+}
+
+h2{
+	color:#A52A2A;
+	font-size:18px;
+	font-family:arial;
+	text-align:center;
+}
+
+
+footer {
+	opacity:.9;
+	text-align:center;
+	clear:both;
+	width:100%;
+	height:100px;
+	line-height:37px;
+	background-color:green;
+}	
